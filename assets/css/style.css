@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  margin-bottom: 20px;
+}
+
+.btn-success {
+  background-color: #00d100;
+  border: solid 1px #00d100;
+}
+
+.btn-success:hover {
+  background-color: #04cc04;
+  border: solid 1px #02cc04;
+}
+
+.container {
+  padding: 0 10%;
+}
+
+.btn-border {
+  border: solid 1px #363636;
+  border-radius: 0px 5px 5px 0px;
+  padding: 1px 7px;
+}
+
+.fa-star {
+  color: #ffd000;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  width: 100%;
+  height: 100px;
+  background-color: red;
+}
+
+article .container .product #model3d {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+article .container .product .informations .value span {
+  -webkit-text-decoration: line-through #6e6e6e;
+          text-decoration: line-through #6e6e6e;
+}
+
+article .container .product .informations .value strong {
+  font-size: 30px;
+}
+/*# sourceMappingURL=style.css.map */

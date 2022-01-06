@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce 3D</title>
+    <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+      <!-- font icone -->
+    <script src="https://kit.fontawesome.com/ec52ed6176.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="main">
+        <nav>
+
+        </nav>
+        <article>
+            <div class="container">
+                <div class="product">
+
+                    <div class="title">
+                        <div class="d-flex pt-3">
+                            <a href="/"><i class="fas fa-home"></i> Home </a>/
+                            <a href="/" >samsung-galaxy-s8-plus</a>
+                        </div>
+                        <h1>1927 Chrysler 50</h1>
+                    </div>
+                    <div class="row">
+                        <div class="col d-flex" id="model3d">
+                            <canvas id="canvas"></canvas>
+                        </div>
+                        
+                        <div class="col informations">
+                            <div class="avaliation">
+                                <span class="star">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </span>
+                                <span>4,7 (203) </span>
+                            </div>
+                            <br>
+                            <div class="color">
+
+                            </div>
+                            <br>
+                            <div class="entrega">
+                                <p>Vendido e entregue por <a href="">Leodeymison</a></p>
+                            </div>
+                            <br>
+                            <div class="value">
+                                de <span>R$ 4.761,90</span><br>
+                                por <strong>US $28,500.00</strong><br>
+                                em 10x de R$ 399,90 sem juros 
+                            </div>
+                            <br>
+                            <div class="pagar">
+                                <a href="">
+                                    Mais formas de pagamentoIncluir garantia estendida e proteção roubo e furto
+                                </a>
+                            </div>
+                            <br>
+                            <div class="car">
+                                <a href="" class="btn btn-success w-100">
+                                    Adicionar à sacola 
+                                </a>
+                            </div>
+                            <br>
+                            <div class="frete d-flex flex-column">
+                                Consultar prazo e valor do frete <br>
+                                <label class="d-flex">
+                                    <input type="text" placeholder="00000-000">
+                                    <button class="btn-border">Ok</button>
+                                </label>
+                                
+                                <a href="">Não sei o cep</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <footer>
+
+        </footer>
+    </div>
+    
+
+    <script src="./assets/js/three.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.126.1/examples/js/controls/OrbitControls.js" integrity="sha256-+ncCNttOcMopCUa47Sn26Tg06ZC2SnWoi/XikKAhnSY=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three-x3@0.0.10/dist/x3-standalone.js" integrity="sha256-oKQUM+QPtvuvLmxpqxdxbrJAq21SZ+7hYK8WlGztXNE=" crossorigin="anonymous"></script>
+    <script type="module" src="./assets/js/WebGL.js"></script>
+    <script type="module" src="./assets/js/app.js"></script>
+</body>
+</html>
