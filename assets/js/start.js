@@ -1,6 +1,7 @@
 export function Start(){
         var canvas = document.getElementById('canvas')
     var scene = new THREE.Scene()
+    scene.background = new THREE.Color(0xFFFFFF)
 
     var camera = new THREE.PerspectiveCamera(
         75,
